@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANKING SYSTEM"
+        android:id="@+id/text_view"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="create a new account"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_btn"
+        android:text="update an account"
+        android:layout_below="@id/create_btn"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check balance"
+        android:id="@+id/balance_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/update_btn"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/withdrwal_btn"
+        android:text="withdrawl"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/balance_btn"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deposit_btn"
+        android:text="deposit"
+        android:layout_below="@id/withdrwal_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transaction_btn"
+        android:text="transaction"
+        android:layout_below="@id/deposit_btn"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
